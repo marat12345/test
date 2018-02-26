@@ -1,4 +1,10 @@
 #include <stdio.h>
+void swap(int *x, int *y)
+  {
+  int temp = *x;
+  *x=*y;
+  *y=temp;
+  }
 int main(void)
 {
   int x= 22;
@@ -7,9 +13,7 @@ int main(void)
   ptintf("x is %i\n", x);
   ptintf("y is %i\n", y);
 
-  int temp = x;
-  x=y;
-  y=temp;
+  swap(&x, &y);
 
   ptintf("x is %i\n", x);
   ptintf("y is %i\n", y);
