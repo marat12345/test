@@ -9,7 +9,7 @@ int main(void)
 
   int temp = x;
   x=y;
-  y=temp
+  y=temp;
 
   ptintf("x is %i\n", x);
   ptintf("y is %i\n", y);
