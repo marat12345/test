@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-  int x= 15;
+  int x= 22;
   int y= 50;
 
   ptintf("x is %i\n", x);
