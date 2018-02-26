@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void)
+{
+
+  int x= 34;
+  int y= 50;
+
+  ptintf("x is %i\n", x);
+  ptintf("y is %i\n", y);
+
+  int temp = x;
+  x=y;
+  y=temp;
+
+  ptintf("x is %i\n", x);
+  ptintf("y is %i\n", y);
+
+}
